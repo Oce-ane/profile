@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  background-image: url(./images/silas-baisch-K785Da4A_JA-unsplash.jpg);
+  background-size: 100%;
+  color: #9CAFAB;
+  padding: 23px;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: "Poppins", sans-serif;
+  color: #AAD7D9;
+}
+
+li{
+  display: inline;
+  margin-right: 10px;
+}
+
+ul{
+padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  background-color: #C8F3F0;
+  color: #9CAFAB;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 23px rgba(0,0,0,.2);
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: #72ABD4;
+}
+
+#profile-pic{
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card{
+  background-color: #EEFDFD;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 23px 10px 40px rgba(255, 255, 255, 0.5);
+}
